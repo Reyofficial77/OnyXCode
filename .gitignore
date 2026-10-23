@@ -25,3 +25,9 @@ onyxcode-cli/
 onyxcode-cli2/
 cli.js
 preview/
+
+#bonus
+
+.playwright-mcp/
+.claude/skills/api-security-testing/
+.agents/skills/api-security-testing/
