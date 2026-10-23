@@ -1,0 +1,423 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "OnyxCode, vai alla home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: ONYXCODE
+      - navigation [ref=e7]:
+        - link "Offerta" [ref=e8] [cursor=pointer]:
+          - /url: /#offerta
+        - link "Glocal" [ref=e9] [cursor=pointer]:
+          - /url: /#glocal
+        - link "Metodo" [ref=e10] [cursor=pointer]:
+          - /url: /#metodo
+        - link "Lavoro" [ref=e11] [cursor=pointer]:
+          - /url: /#lavori
+        - link "Studio" [ref=e12] [cursor=pointer]:
+          - /url: /#studio
+        - link "Contatti" [ref=e13] [cursor=pointer]:
+          - /url: /#contatti
+        - link "Prova la demo" [ref=e14] [cursor=pointer]:
+          - /url: /prova
+      - generic [ref=e15]:
+        - button "Apri navigazione rapida" [ref=e16]:
+          - generic [ref=e17]: Cerca
+          - generic [ref=e18]: ⌘K
+        - link "Parliamone" [ref=e19] [cursor=pointer]:
+          - /url: /#contatti
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: Atelier digitale · Padova e provincia
+        - heading "Ti cercano online. Ti trovano qui. Il glocal." [level=1] [ref=e26]: Ti cercano online.Ti trovano qui.Il glocal.
+        - paragraph [ref=e27]: "Pagine web semplici, pronte in poco tempo. L'identità online per osteopati, nutrizionisti, fisioterapisti e psicologi tra Padova e provincia: chi cerca il tuo studio lo trova, e capisce subito se fa per lui."
+        - generic [ref=e28]:
+          - link "Parliamone" [ref=e29] [cursor=pointer]:
+            - /url: "#contatti"
+          - link "Guarda i risultati" [ref=e31] [cursor=pointer]:
+            - /url: "#lavori"
+      - article [ref=e33]:
+        - generic [ref=e34]:
+          - img "Tobia Liam Bertapelle, fondatore di OnyxCode" [ref=e35]
+          - generic [ref=e36]: REF · 01
+        - generic [ref=e44]:
+          - generic [ref=e45]: ONYXCODE
+          - paragraph [ref=e47]: Un sito, un volto
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - paragraph [ref=e52]:
+            - generic [ref=e60]: Cosa offriamo
+          - heading "Un sito che parla come te in studio." [level=2] [ref=e61]: Un sito che parlacome te in studio.
+        - paragraph [ref=e63]: "Costruisco pagine web semplici per studi e professionisti della salute che online non ci sono, o ci sono male. L'obiettivo è concreto: farsi trovare, farsi capire, ricevere la prima chiamata."
+      - generic [ref=e64]:
+        - article [ref=e66]:
+          - paragraph [ref=e67]: Una pagina
+          - generic [ref=e68]:
+            - heading "Pagine semplici" [level=3] [ref=e69]
+            - paragraph [ref=e70]: Pagine chiare, fatte per farsi capire al primo sguardo. Chi arriva vede chi sei, cosa tratti e come prenotare — senza piattaforme da imparare, né per te né per i tuoi pazienti.
+        - article [ref=e72]:
+          - paragraph [ref=e73]: Poco tempo
+          - generic [ref=e74]:
+            - heading "In poco tempo" [level=3] [ref=e75]
+            - paragraph [ref=e76]: "Un atelier piccolo lavora stretto. Dalla conversazione alla pagina pubblicata senza mesi di riunioni, e senza toglierti ore di studio: presenza online, presto."
+        - article [ref=e78]:
+          - paragraph [ref=e79]: Un volto
+          - generic [ref=e80]:
+            - heading "Non un template" [level=3] [ref=e81]
+            - paragraph [ref=e82]: "Il glocal, in pratica: uno studio radicato nel suo quartiere e una pagina che regge lo sguardo di chi non ti ha mai visto. La tua identità, con la qualità di una vetrina vera."
+            - link "Cos’è il glocal" [ref=e83] [cursor=pointer]:
+              - /url: "#glocal"
+    - region "GLOCAL" [ref=e85]:
+      - generic [ref=e86]:
+        - radiogroup "Choose the letter to enter through":
+          - radio "G, letter 1 of 6" [ref=e87] [cursor=pointer]
+          - radio "L, letter 2 of 6" [ref=e88] [cursor=pointer]
+          - radio "O, letter 3 of 6" [checked] [ref=e89] [cursor=pointer]
+          - radio "C, letter 4 of 6" [ref=e90] [cursor=pointer]
+          - radio "A, letter 5 of 6" [ref=e91] [cursor=pointer]
+          - radio "L, letter 6 of 6" [ref=e92] [cursor=pointer]
+        - generic:
+          - generic:
+            - generic: ONYXCODE
+            - generic: Il concetto
+          - paragraph: Una soglia, non uno slogan
+          - paragraph: Ti trovano qui, dove lavori.
+          - generic: Scorri per entrare ↓
+        - link "Entra nel glocal" [ref=e94] [cursor=pointer]:
+          - /url: "#gp-r0-content"
+          - text: Entra nel glocal
+          - generic [aria-hidden] [ref=e95]: ↘
+      - generic:
+        - generic:
+          - generic:
+            - paragraph:
+              - generic [aria-hidden]:
+                - generic: +
+              - generic: Il concetto
+            - heading "Cos’è il glocal." [level=2]: Cos’èil glocal.
+            - paragraph:
+              - text: "Non un aggettivo da brochure. Una posizione: restare legati a un territorio e costruire una presenza che regge fuori da quel territorio."
+              - generic: Quattro passaggi, dalla parola allo studio.
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: Formula
+                - generic:
+                  - generic:
+                    - generic: global
+                    - generic: +
+                    - generic: local
+                    - generic: glocal
+                - generic:
+                  - generic: ONYXCODE
+                  - note:
+                    - generic:
+                      - generic: global + local
+                      - generic: Due scale, una parola
+            - generic:
+              - article:
+                - paragraph:
+                  - generic: I ·
+                  - text: Etimologia
+                - heading "Global + local." [level=3]
+                - paragraph: "Glocal è una parola ibrida: global e local saldate insieme. Nasce tra gli anni Ottanta e Novanta, quando sociologi ed economisti (Robertson, e poi il motto think globally, act locally) descrivono un fatto già visibile: il mondo si allarga, ma le persone restano da qualche parte. Non è uno slogan da agenzia. È un modo di stare nel mondo senza cancellare il posto da cui si parla."
+                - list:
+                  - listitem: Una sola parola per due scale che di solito si fanno guerra
+                  - listitem: Pensare con lo sguardo largo, agire da dove si è
+                  - listitem: Né provincialismo chiuso, né template uguale per tutti
+              - article:
+                - paragraph:
+                  - generic: II ·
+                  - text: Lo studio
+                - heading "Restare del Veneto." [level=3]
+                - paragraph: "Locale, per OnyxCode, è Padova e i comuni intorno: lo studio, la sala d’attesa, il passaparola di chi si è trovato bene. È un lavoro che non ha bisogno di spiegarsi in tre lingue per essere vero. Un sito che ignora questo — che parla come un SaaS di nessun luogo — toglie proprio ciò che distingue un professionista da un portale di prenotazioni."
+                - list:
+                  - listitem: Un volto, un nome, un indirizzo che esistono già
+                  - listitem: Il tono di chi riceve qui, non di un copy generico
+                  - listitem: Il territorio come bacino reale, non come limite
+              - article:
+                - paragraph:
+                  - generic: III ·
+                  - text: La vetrina
+                - heading "Apparire nel mondo." [level=3]
+                - paragraph: "Globale non significa cercare pazienti dall’altra parte del mondo. Significa che la pagina deve reggere lo sguardo di chi non ti conosce ancora: chiara al primo colpo, veloce, leggibile sul telefono, senza scuse da “sito fatto in casa”. Il web è la prima sala d’attesa, quella che si vede prima di entrare. Se è lenta o confusa, la telefonata non arriva."
+                - list:
+                  - listitem: Qualità di lettura e di costruzione, non di fashion week
+                  - listitem: Una presenza che non chiede perdono per essere piccola
+                  - listitem: Gli stessi standard di chiarezza di uno studio in centro a Padova
+              - article:
+                - paragraph:
+                  - generic: IV ·
+                  - text: Il punto
+                - heading "Non scegliere." [level=3]
+                - paragraph: "Il glocal è il rifiuto del bivio. Non si rinuncia allo studio e al quartiere per sembrare una catena, e non si rinuncia alla qualità per restare “solo locali”. Si tengono entrambi: l’identità di chi sei, e una pagina che funziona come se fosse fatta per chi non ti ha mai incontrato. Questo è il lavoro di OnyxCode — un atelier piccolo che costruisce quella soglia."
+                - list:
+                  - listitem: Locale nell’origine, globale nella qualità della pagina
+                  - listitem: Niente template che cancellano il volto, niente dilettantismo che lo nasconde
+                  - listitem: "Dallo studio a chi ti cerca: una direzione, non uno slogan"
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - paragraph [ref=e100]:
+          - generic [ref=e104]: §
+          - generic [ref=e105]: Come lavoro
+        - heading "Trasparente sul mezzo, non sul risultato." [level=2] [ref=e106]: Trasparente sulmezzo, non sul risultato.
+        - paragraph [ref=e107]: "OnyxCode non nasconde l'intelligenza artificiale. La usa come utensile di atelier: per andare più veloce e rendere i siti accessibili anche a chi parte piccolo. Il percorso resta un verbale leggibile — cinque passi, nessuno inventato."
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - term [ref=e110]: Strumento
+            - definition [ref=e111]: AI come strumento, non come autore
+          - generic [ref=e112]:
+            - term [ref=e113]: Forma
+            - definition [ref=e114]: Verbale di atelier, non funnel
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - paragraph [ref=e118]: Verbale · 5 voci
+          - paragraph [ref=e119]: OnyxCode
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - heading [level=3] [ref=e122]:
+              - button "§01 Discovery" [expanded] [ref=e123]:
+                - generic [ref=e124]:
+                  - generic [ref=e125]: §01
+                  - generic [ref=e126]: Discovery
+            - region "§01 Discovery" [ref=e129]:
+              - generic [ref=e130]: "Partiamo da conversazione, non da brief kilometrici: chi sei, chi serve la pagina, cosa deve succedere dopo il click. Escono vincoli reali (tempi, contenuti, tono) e una direzione condivisa prima di aprire Figma o il codice."
+          - heading [level=3] [ref=e132]:
+            - button "§02 DESIGN.md" [ref=e133]:
+              - generic [ref=e134]:
+                - generic [ref=e135]: §02
+                - generic [ref=e136]: DESIGN.md
+          - heading [level=3] [ref=e140]:
+            - button "§03 Build" [ref=e141]:
+              - generic [ref=e142]:
+                - generic [ref=e143]: §03
+                - generic [ref=e144]: Build
+          - heading [level=3] [ref=e148]:
+            - button "§04 Revisione" [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e151]: §04
+                - generic [ref=e152]: Revisione
+          - heading [level=3] [ref=e156]:
+            - button "§05 Consegna" [ref=e157]:
+              - generic [ref=e158]:
+                - generic [ref=e159]: §05
+                - generic [ref=e160]: Consegna
+    - generic [ref=e164]:
+      - generic:
+        - heading "Siti e web app già in uso." [level=2]
+        - paragraph: Un sito e tre applicazioni web in produzione. Solo lavori confermati — niente vetrine inventate.
+      - generic [ref=e165]:
+        - link "Erma Nutrizione" [ref=e167] [cursor=pointer]:
+          - /url: https://www.ermanutrizione.it
+          - paragraph [ref=e169]: ermanutrizione.it
+        - link "Valtix" [ref=e171] [cursor=pointer]:
+          - /url: https://valtix.it
+          - generic [ref=e172]:
+            - paragraph [ref=e173]: VALTIX
+            - paragraph [ref=e174]: valtix.it
+        - link "InvestiMo" [ref=e176] [cursor=pointer]:
+          - /url: https://investimo.it
+          - generic [ref=e177]:
+            - paragraph [ref=e178]: InvestiMo
+            - paragraph [ref=e179]: investimo.it
+        - link "ItineraFacile" [ref=e181] [cursor=pointer]:
+          - /url: https://itinerafacile.it
+          - generic [ref=e182]:
+            - paragraph [ref=e188]: ItineraFacile
+            - paragraph [ref=e189]: itinerafacile.it
+      - generic: Scorri
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - generic [ref=e193]:
+          - paragraph [ref=e194]:
+            - generic [ref=e203]: Risultati reali
+          - heading "I quattro lavori, uno per uno." [level=2] [ref=e204]: I quattro lavori,uno per uno.
+        - paragraph [ref=e205]: "Il breve di ciascun sito in produzione: cosa fa, per chi, e il link al live. I loghi sopra aprono lo stesso indirizzo."
+      - generic [ref=e207]:
+        - tablist "Filtra i progetti" [ref=e208]:
+          - tab "Tutti" [selected] [ref=e209] [cursor=pointer]
+          - tab "Sito" [ref=e210] [cursor=pointer]
+          - tab "Web app" [ref=e211] [cursor=pointer]
+        - tabpanel "Tutti" [ref=e212]:
+          - generic [ref=e213]:
+            - article [ref=e214]:
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - generic [ref=e217]: Lavoro · 01
+                  - img "Logo Erma Nutrizione" [ref=e218]
+                - generic [ref=e219]:
+                  - paragraph [ref=e220]: Biologa nutrizionista
+                  - heading "Erma Nutrizione" [level=3] [ref=e221]
+                  - paragraph [ref=e222]: Erma Nutrizione è il volto online della Dott.ssa Chiara Brugnolaro. Il sito raccoglie studio, percorso e contatto in una pagina che si legge subito.
+                  - list [ref=e223]:
+                    - listitem [ref=e224]: Dashboard personale per seguire il percorso nutrizionale
+                    - listitem [ref=e225]: Diario, misure e storico visite sempre disponibili
+                    - listitem [ref=e226]: Area dedicata al contatto rapido con la nutrizionista
+                  - generic [ref=e227]:
+                    - link "Visita ermanutrizione.it" [ref=e228] [cursor=pointer]:
+                      - /url: https://www.ermanutrizione.it
+                    - link "Prova la demo" [ref=e232] [cursor=pointer]:
+                      - /url: /prova
+            - article [ref=e233]:
+              - generic [ref=e234]:
+                - generic [ref=e235]:
+                  - generic [ref=e236]: Lavoro · 02
+                  - generic [ref=e237]:
+                    - paragraph [ref=e242]: VALTIX
+                    - paragraph [ref=e243]: valtix.it
+                - generic [ref=e244]:
+                  - paragraph [ref=e245]: Allenatori di pallavolo
+                  - heading "Valtix" [level=3] [ref=e246]
+                  - paragraph [ref=e247]: Valtix legge lo scout .dvw e restituisce sideout, break point ed efficienza in parole chiare. Niente fogli di calcolo dopo l’allenamento.
+                  - list [ref=e248]:
+                    - listitem [ref=e249]: Import dei file DataVolley .dvw
+                    - listitem [ref=e250]: "KPI spiegati: sideout, break point, attacco e ricezione"
+                    - listitem [ref=e251]: Dossier e report PDF da portare in palestra
+                  - link "Visita valtix.it" [ref=e253] [cursor=pointer]:
+                    - /url: https://valtix.it
+            - article [ref=e257]:
+              - generic [ref=e258]:
+                - generic [ref=e259]:
+                  - generic [ref=e260]: Lavoro · 03
+                  - generic [ref=e261]:
+                    - paragraph [ref=e262]: InvestiMo
+                    - paragraph [ref=e263]: investimo.it
+                - generic [ref=e264]:
+                  - paragraph [ref=e265]: Investimenti immobiliari
+                  - heading "InvestiMo" [level=3] [ref=e266]
+                  - paragraph [ref=e267]: InvestiMo parte da un annuncio e calcola mutuo, cash flow e rendimento con i dati OMI dell’Agenzia delle Entrate.
+                  - list [ref=e268]:
+                    - listitem [ref=e269]: "Analisi all-in: costi, rata, cash flow e proiezione"
+                    - listitem [ref=e270]: Confronto di strategie di affitto sullo stesso immobile
+                    - listitem [ref=e271]: Checklist dai permessi al rogito
+                  - link "Visita investimo.it" [ref=e273] [cursor=pointer]:
+                    - /url: https://investimo.it
+            - article [ref=e277]:
+              - generic [ref=e278]:
+                - generic [ref=e279]:
+                  - generic [ref=e280]: Lavoro · 04
+                  - generic [ref=e281]:
+                    - paragraph [ref=e282]: ItineraFacile
+                    - paragraph [ref=e283]: itinerafacile.it
+                - generic [ref=e284]:
+                  - paragraph [ref=e285]: Giri visite
+                  - heading "ItineraFacile" [level=3] [ref=e286]
+                  - paragraph [ref=e287]: ItineraFacile calcola l’ordine migliore delle visite e ricalcola il percorso quando un appuntamento salta — dalla web app, senza installare nulla.
+                  - list [ref=e288]:
+                    - listitem [ref=e289]: Import della lista clienti con priorità e orari
+                    - listitem [ref=e290]: Ordine visite che rispetta le finestre orarie
+                    - listitem [ref=e291]: Ricalcolo del giro in un tap dal telefono
+                  - link "Visita itinerafacile.it" [ref=e293] [cursor=pointer]:
+                    - /url: https://itinerafacile.it
+    - generic [ref=e298]:
+      - generic [ref=e300]:
+        - img "Tobia Liam Bertapelle a Venezia, giorno della laurea" [ref=e302]
+        - link "Massanzago, Veneto. Ora locale 14:45. Apri la mappa." [ref=e304] [cursor=pointer]:
+          - /url: https://www.openstreetmap.org/?mlat=45.556&mlon=12.007#map=14/45.556/12.007
+          - generic [ref=e306]:
+            - generic [ref=e307]: Massanzago, Veneto
+            - generic [ref=e308]: 14:45
+      - generic [ref=e312]:
+        - paragraph [ref=e313]:
+          - generic [ref=e318]: Lo studio
+        - heading "Tobia Liam Bertapelle" [level=2] [ref=e319]: Tobia LiamBertapelle
+        - paragraph [ref=e320]: "Fondatore di OnyxCode. Tra Ca’ Foscari e Verona: un atelier piccolo che fa pagine web per professionisti e studi del territorio, perché chi li cerca li trovi davvero."
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - term [ref=e323]: Scala
+            - definition [ref=e324]: Un atelier, non un’agenzia
+          - generic [ref=e325]:
+            - term [ref=e326]: Formazione
+            - definition [ref=e327]: Laurea triennale in Economia Aziendale, Ca’ Foscari Venezia
+          - generic [ref=e328]:
+            - term [ref=e329]: In corso
+            - definition [ref=e330]: Magistrale in Economia e Gestione Aziendale, Università di Verona
+        - link "Curriculum" [ref=e331] [cursor=pointer]:
+          - /url: /studio/cv.pdf
+    - generic [ref=e337]:
+      - generic [ref=e338]:
+        - paragraph [ref=e339]:
+          - generic [ref=e346]: Contatti
+        - heading "Un messaggio basta per iniziare." [level=2] [ref=e347]: Un messaggio bastaper iniziare.
+        - paragraph [ref=e348]: Raccontami com'è fatto il tuo studio. Partiamo da una pagina semplice.
+        - note [ref=e349]:
+          - generic [ref=e351]:
+            - generic [ref=e352]: Risposta in 1–2 giorni
+            - generic [ref=e353]: Scrivi o chiama
+      - generic [ref=e354]:
+        - link "Email info@onyxcode.it" [ref=e355] [cursor=pointer]:
+          - /url: mailto:info@onyxcode.it
+          - generic [ref=e360]:
+            - generic [ref=e361]: Email
+            - text: info@onyxcode.it
+        - link "Cellulare +39 333 504 1133" [ref=e362] [cursor=pointer]:
+          - /url: tel:+393335041133
+          - generic [ref=e366]:
+            - generic [ref=e367]: Cellulare
+            - text: +39 333 504 1133
+    - generic [ref=e369]:
+      - generic [ref=e370]:
+        - generic [ref=e371]:
+          - paragraph [ref=e372]: Atelier digitale · Padova e provincia
+          - link "OnyxCode, vai alla home" [ref=e373] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e374]: ONYXCODE
+          - paragraph [ref=e375]: Pagine web semplici per studi e professionisti della salute tra Padova e provincia. Ti trovano qui, dove lavori.
+        - note [ref=e376]:
+          - generic [ref=e378]:
+            - generic [ref=e379]: Pagine fatte a mano
+            - generic [ref=e380]: Atelier, non agenzia
+      - generic [ref=e381]:
+        - generic [ref=e382]:
+          - heading "Naviga" [level=3] [ref=e383]
+          - list [ref=e384]:
+            - listitem [ref=e385]:
+              - link "Offerta" [ref=e386] [cursor=pointer]:
+                - /url: /#offerta
+            - listitem [ref=e387]:
+              - link "Glocal" [ref=e388] [cursor=pointer]:
+                - /url: /#glocal
+            - listitem [ref=e389]:
+              - link "Metodo" [ref=e390] [cursor=pointer]:
+                - /url: /#metodo
+            - listitem [ref=e391]:
+              - link "Lavoro" [ref=e392] [cursor=pointer]:
+                - /url: /#lavori
+            - listitem [ref=e393]:
+              - link "Studio" [ref=e394] [cursor=pointer]:
+                - /url: /#studio
+            - listitem [ref=e395]:
+              - link "Contatti" [ref=e396] [cursor=pointer]:
+                - /url: /#contatti
+        - generic [ref=e397]:
+          - heading "Legale" [level=3] [ref=e398]
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - link "Privacy Policy" [ref=e401] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e402]:
+              - link "Cookie Policy" [ref=e403] [cursor=pointer]:
+                - /url: /cookie
+            - listitem [ref=e404]:
+              - link "Termini e Condizioni" [ref=e405] [cursor=pointer]:
+                - /url: /termini
+        - generic [ref=e406]:
+          - heading "Riservato" [level=3] [ref=e407]
+          - list [ref=e408]:
+            - listitem [ref=e409]:
+              - link "Area personale" [ref=e410] [cursor=pointer]:
+                - /url: /portale
+      - generic [ref=e411]:
+        - generic [ref=e412]: © 2026 OnyxCode · Tobia Liam Bertapelle · Massanzago (PD)
+        - generic [ref=e413]: Ti trovano qui, dove lavori.
+  - region "Avviso cookie":
+    - generic [ref=e414]:
+      - generic [ref=e415]:
+        - paragraph [ref=e416]: Cookie
+        - paragraph [ref=e417]:
+          - text: Niente profilazione. Usiamo solo cookie tecnici, per far funzionare il sito e il portale.
+          - link "Cookie Policy" [ref=e418] [cursor=pointer]:
+            - /url: /cookie
+      - button "Ho capito" [ref=e419]
+  - region "Notifications alt+T"
+  - alert [ref=e420]
