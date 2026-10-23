@@ -1,0 +1,26 @@
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.log
+
+# rahasia
+.env
+.env.local
+.env.production
+
+# data runtime
+.data/
+workspace/
+
+# agents
+
+.agents/
+.claude/
+
+#cli
+
+onyxcode-cli/
+onyxcode-cli2/
+cli.js
