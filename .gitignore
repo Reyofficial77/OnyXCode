@@ -31,3 +31,4 @@ preview/
 .playwright-mcp/
 .claude/skills/api-security-testing/
 .agents/skills/api-security-testing/
+pages/
