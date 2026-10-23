@@ -20,7 +20,7 @@ workspace/
 .claude/
 
 #cli
-
+OnyXCode/
 onyxcode-cli/
 onyxcode-cli2/
 cli.js
