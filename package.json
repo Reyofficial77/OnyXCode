@@ -1,18 +1,19 @@
 {
-    "private":  true,
-    "name":  "onyxcode",
-    "version":  "0.1.0",
-    "dependencies":  {
-                      "react":  "latest",
-                      "react-dom":  "latest",
-                      "next":  "latest"
-                  },
-    "devDependencies":  {
-                      "typescript":  "latest"
-                  },
-    "scripts":  {
-                    "build":  "next build",
-                    "dev":  "next dev",
-                    "start":  "next start"
-                }
+  "private": true,
+  "name": "onyxcode",
+  "version": "0.1.0",
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "xlsx": "latest"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  }
 }
