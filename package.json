@@ -1,19 +1,42 @@
 {
-  "name": "onyxcode",
+  "name": "@onyxcode/cli",
   "version": "0.1.0",
   "description": "OnyxCode — AI coding agent TUI for the terminal",
   "type": "module",
   "license": "MIT",
+  "author": "OnyxCode contributors",
+  "homepage": "https://github.com/Reyofficial77/OnyXCode#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reyofficial77/OnyXCode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Reyofficial77/OnyXCode/issues"
+  },
   "bin": {
-    "onyxcode": "dist/cli/main.js",
-    "onyx": "dist/cli/main.js"
+    "onyx": "dist/cli/main.js",
+    "onyxcode": "dist/cli/main.js"
+  },
+  "main": "dist/cli/main.js",
+  "exports": {
+    ".": "./dist/cli/main.js",
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
-    "docs",
     "README.md",
     "LICENSE",
     "NOTICE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "cli",
+    "tui",
+    "terminal"
   ],
   "engines": {
     "node": ">=20.11.0"
@@ -26,15 +49,9 @@
     "typecheck": "tsc --noEmit",
     "lint": "tsc --noEmit",
     "start": "node dist/cli/main.js",
-    "prepublishOnly": "npm run build && npm test"
+    "pack:check": "npm pack --dry-run",
+    "release": "npm run typecheck && npm run test && npm run build && npm publish"
   },
-  "keywords": [
-    "ai",
-    "coding-agent",
-    "cli",
-    "tui",
-    "terminal"
-  ],
   "dependencies": {
     "commander": "^15.0.0",
     "diff": "^9.0.0",
