@@ -1,0 +1,54 @@
+{
+  "name": "onyxcode",
+  "version": "0.1.0",
+  "description": "OnyxCode — AI coding agent TUI for the terminal",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "onyxcode": "dist/cli/main.js",
+    "onyx": "dist/cli/main.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit",
+    "start": "node dist/cli/main.js",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "ai",
+    "coding-agent",
+    "cli",
+    "tui",
+    "terminal"
+  ],
+  "dependencies": {
+    "commander": "^15.0.0",
+    "diff": "^9.0.0",
+    "ignore": "^7.0.14",
+    "marked": "^18.1.1",
+    "zod": "^4.6.7"
+  },
+  "optionalDependencies": {
+    "@opentui/core": "^0.6.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsup": "^9.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,14 @@
+OnyxCode
+Copyright (c) 2026 OnyxCode contributors
+
+This product includes software developed by third parties:
+
+  commander  — MIT — https://github.com/tj/commander.js
+  zod        — MIT — https://github.com/colinhacks/zod
+  diff       — BSD-3-Clause — https://github.com/kpdecker/jsdiff
+  ignore     — MIT — https://github.com/kaelzhang/node-ignore
+  marked     — MIT — https://github.com/markedjs/marked
+  @opentui/core — MIT — https://github.com/anomalyco/opentui (optional)
+
+No source code from other AI coding agents was copied into this project.
+See LICENSE_REVIEW.md for details.
